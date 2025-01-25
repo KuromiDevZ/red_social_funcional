@@ -1,0 +1,155 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #c3f9e7, #fce2e5);
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a7dbbe;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon-button img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .search-bar input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-button {
+    background-color: #e3a0d5;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Main Content */
+  .main-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .profile-section {
+    flex: 1 1 100%;
+    background-color: #f4f9f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .profile-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+  .profile-info {
+    flex: 1;
+  }
+  
+  .modify-button {
+    background-color: #6cb6a2;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Projects Section */
+  .projects-section {
+    flex: 2 1 60%;
+    background-color: #fce4ec;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .project-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .project-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+  }
+  
+  /* Info Section */
+  .info-section {
+    flex: 1 1 35%;
+    background-color: #f8ebff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-section ul {
+    list-style: none;
+  }
+  
+  .info-section li {
+    margin-bottom: 10px;
+  }
+  
